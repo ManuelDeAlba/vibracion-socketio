@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overscroll-behavior: contain;
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 1.5em;
+    min-width: 50%;
+    border: none;
+    border-radius: 3px;
+}
+
+.iniciar{
+    background: #090;
+    color: #fff;
+}
+.iniciar:hover{ background: #080; }
+.cancelar{
+    background: #f00;
+    color: #fff;
+}
+.cancelar:hover{ background: #900; }
